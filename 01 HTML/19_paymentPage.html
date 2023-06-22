@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay with your card</title>
+</head>
+<body>
+    <p>In this video, we are going to create a form through which we can make a payment with our card.</p>
+    <form>
+        <fieldset>
+            <legend><h1>Pay with your card</h1></legend>
+
+            <!-- stuff for card type  -->
+            <label for="cardtype">Card Type: </label>
+            <select name="" id="cardtype" required>
+                <option value="debit">Debit Card</option>
+                <option value="credit">Credit Card</option>
+                <option value="shopping">Shopping Card</option>
+            </select> <br> <br>
+
+
+            <!-- stuff for card issuer  -->
+            <label for="cardissuer">Card Issuer: </label>
+            <select name="" id="cardissuer" required>
+                <option value="rupay">Rupay</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="bajaj">Bajaj Finserv</option>
+            </select> <br> <br>
+
+            <!-- stuff for card number  -->
+            <label for="cardnumber">Card Number: </label>
+            <input type="number" name="" id="cardnumber" placeholder="16-digit card number" required> <br> <br>
+
+            <!-- stuff for expiry date  -->
+            <label for="expirydate">Expiry Date: </label>
+            <input type="text" name="" id="expirydate" placeholder="mm/yy" required> <br> <br>
+
+            <!-- stuff for cvv code  -->
+            <label for="cvv">CVV: </label>
+            <input type="number" name="" id="cvv" placeholder="3-digit cvv code" required> <br> <br>
+
+            <!-- stuff for cardholder name  -->
+            <label for="name">Cardholder Name: </label>
+            <input type="text" name="" id="name" placeholder="Name as per Card" required> <br> <br>
+
+            <button type="submit">Make Payment</button>
+            <button type="reset">Reset</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
