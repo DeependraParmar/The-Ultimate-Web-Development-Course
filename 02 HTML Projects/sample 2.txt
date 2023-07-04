@@ -1,13 +1,14 @@
 How do I place an order on your online medical store?
 To place an order, follow these simple steps:
 
-Browse our website and search for the desired products using the search bar or product categories.
-Once you find the product you need, select the desired quantity and click on "Add to Cart."
-Review your cart to ensure all the products and quantities are accurate.
-Proceed to the checkout page, where you will need to provide your shipping address and contact information.
-Choose your preferred payment method and complete the payment process.
-Once your order is confirmed, you will receive an order confirmation email with the details of your purchase.
-
+<ul>
+<li>Browse our website and search for the desired products using the search bar or product categories.</li>
+<li>Once you find the product you need, select the desired quantity and click on "Add to Cart."</li>
+<li>Review your cart to ensure all the products and quantities are accurate.</li>
+<li>Proceed to the checkout page, where you will need to provide your shipping address and contact information.</li>
+<li>Choose your preferred payment method and complete the payment process.</li>
+<li>Once your order is confirmed, you will receive an order confirmation email with the details of your purchase.</li>
+</ul>
 
 
 
@@ -15,10 +16,15 @@ Once your order is confirmed, you will receive an order confirmation email with 
 What payment options are available?
 We offer multiple secure payment options, including:
 
-Credit or Debit Card: We accept major credit and debit cards, such as Visa, Mastercard, American Express, etc.
-Net Banking: You can use your online banking credentials to make a direct bank transfer.
-Wallets: We accept payments through popular digital wallets such as Google Pay, Apple Pay, and more.
-Cash on Delivery (COD): We offer cash on delivery as a payment option for eligible orders. Please note that COD availability may vary based on your location.
+<ul>
+<li>Credit or Debit Card: We accept major credit and debit cards, such as Visa, Mastercard, American Express, etc.</li>
+<li>Net Banking: You can use your online banking credentials to make a direct bank transfer.</li>
+<li>Wallets: We accept payments through popular digital wallets such as Google Pay, Apple Pay, and more.
+<li>Cash on Delivery (COD): We offer cash on delivery as a payment option for eligible orders. Please note that COD availability may vary based on your location.</li>
+</ul>
+
+
+
 Are the medicines and healthcare products on your store genuine and reliable?
 Yes, we strictly source our products from authorized suppliers, ensuring that all medicines and healthcare products available on our store are genuine, reliable, and compliant with applicable regulations. We prioritize the safety and well-being of our customers and strive to provide only high-quality products.
 
