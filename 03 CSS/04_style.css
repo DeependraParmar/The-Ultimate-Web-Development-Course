@@ -1,0 +1,27 @@
+/* element selector  */
+/* h1{
+    color: red;
+    background-color: antiquewhite;
+} */
+
+/* id selector: id is accessed via a hashtag(#)  */
+/* #para{
+    color: blueviolet;
+} */
+
+/* class selector: class is accessed via a period(.)  */
+/* .heading{
+    color: green;
+} */
+
+/* universal selector */
+/* *{
+    color: brown;
+    background-color: beige;
+} */
+
+/* grouping selector  */
+h1,p,h2{
+    color: white;
+    background-color: black;
+}
