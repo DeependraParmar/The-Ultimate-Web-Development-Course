@@ -1,0 +1,12 @@
+h1{
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-indent: 60px;
+    line-height: 20px;
+    text-transform: capitalize;
+}

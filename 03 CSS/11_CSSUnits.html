@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units in Detail</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        html{
+            font-size: 20px;
+        }
+        .container{
+            font-size: 20px;
+            border: 2px solid red;
+            width: 50vw;
+            height: 50vh;
+        }
+        .child_para{
+            /* font-size: 2em; em: relative unit wrt parent */
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="child_para">Hello, I am a child of a parent with class container</p>
+    </div>
+</body>
+</html>
