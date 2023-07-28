@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients in CSS</title>
+    <style>
+        .container1{
+            /* background-color: crimson; */
+            width: 60vw;
+            height: 40vh;
+            background: linear-gradient(to right,red,orange, yellow, green,blue,indigo, violet);
+            color: white;
+            font-size: 4rem;
+            text-align: center;
+        }
+        .container2{
+            width: 60vw;
+            height: 40vh;
+            background: radial-gradient(red,orange, yellow, green,blue,indigo, violet);
+        }
+    </style>
+</head>
+<body>
+    <main class="container1">
+        Hello, I am a Gradient
+    </main>
+    <br>
+    <main class="container2">
+        Hello, I am a Gradient
+    </main>
+</body>
+</html>
