@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Lists in CSS</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            padding-top: 10rem;
+        }
+        .list{
+            background-color: yellow;
+            list-style-image: url('./hplogo.png');
+            list-style-position: outside;
+            width: 70%;
+            margin: auto;
+            padding: 30px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .list > li{
+            padding: 5px 10px;
+            margin: 10px;
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <ul class="list">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nihil?</li>
+            <li>Consequuntur ea deleniti obcaecati deserunt error aspernatur ducimus, quas animi!</li>
+            <li>Veniam est laboriosam sequi ex obcaecati aliquam possimus, minima voluptate?</li>
+            <li>Placeat consequatur corrupti animi. Praesentium animi atque vel nesciunt illum.</li>
+            <li>Id voluptatem magnam enim fuga numquam praesentium officiis iusto assumenda.</li>
+            <li>Voluptatibus tempora ab ducimus, cumque dolores natus! Itaque, nobis nihil?</li>
+        </ul>
+    </main>
+</body>
+</html>
