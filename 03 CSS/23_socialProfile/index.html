@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./profile.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Deependra Parmar: Personal Social Profile</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Poppins;
+        }
+        .container{
+            background: url('./background.avif') no-repeat center center/cover fixed ;
+            width: 100vw;
+            height: 100vh;
+            padding-top: 2rem;
+        }
+        .profile_card{
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 40%;
+            margin: auto;
+            text-align: center;
+            padding: 1rem;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .profile_card > .profile_pic{
+            width: 20%;
+        }
+        .bio{
+            margin: 10px 0px;
+        }
+        .bio_info{
+            margin: 20px 0px;
+        }
+        .name{
+            font-size: 1.3rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #27debf;
+        }
+        .links_container{
+            width: 100%;
+        }
+        .links_container > ul{
+            list-style: none;
+        }
+        .links_container > ul > li{
+            margin: 2rem;
+        }
+        .links_container > ul > li > a{
+            text-decoration: none;
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 5px 20px;
+        }
+        .linkedin:hover{
+            background-color: #004182;
+        }
+        .twitter:hover{
+            background-color: #00d0ff;
+        }
+        .youtube:hover{
+            background-color: #ff0000;
+        }
+        .facebook:hover{
+            background-color: #004cff;
+        }
+        .instagram:hover{
+            background-color: #b700ff;
+        }
+        .github:hover{
+            background-color: #222222;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <main class="profile_card">
+            <!-- profile image  -->
+            <img class="profile_pic" src="./profile.png" alt="">
+
+
+            <!-- bio section  -->
+            <article class="bio">
+                <p>Hello guys, I am <span class="name">Deependra Parmar</span></p>
+                <main class="bio_info">
+                    <p>MERN Stack Developer👩‍💻</p>
+                    <p>Educator at Youtube🎥</p>
+                    <p>Content Creator & Video Production ▶</p>
+                </main>
+            </article>
+
+            <!-- links section  -->
+            <article class="links_container">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/deependraparmar" class="linkedin" target="blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-bounce"></i> LinkedIn</a></li>
+
+                    <li><a href="https://www.twitter.com/_deependra05" class="twitter" target="blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-bounce"></i> Twitter</a></li>
+
+                    <li><a href="https://learnlogics.page.link/RtQw" class="youtube" target="blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube fa-bounce"></i> Youtube</a></li>
+
+                    <li><a href="https://www.facebook.com/learnlogics" class="facebook" target="blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-bounce"></i> Facebook</a></li>
+
+                    <li><a href="https://www.instagram.com/_deependra.parmar" class="instagram" target="blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-bounce"></i> Instagram</a></li>
+
+                    <li><a href="https://www.github.com/DeependraParmar" class="github" target="blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-bounce"></i> Github</a></li>
+                </ul>
+            </article>
+
+
+
+        </main>
+    </section>
+</body>
+</html>
