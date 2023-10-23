@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties in CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 200vh;
+            width: 100vw;
+            background-color: rgb(0, 0, 44);
+        }
+        .card{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            display: inline-block;
+        }
+        #card3{
+            /* position: static(default) which positions element normally and top, right, bottom, left do not affect the position of the element  ; */
+            /* position: static;
+            top: 10px;
+            left: 20px; */
+
+
+            /* position: relative positions the element relative to its normal default position ; */
+            /* position: relative;
+            top: 20px;
+            left: 50px;
+            border: 2px solid red; */
+
+            /* position: absolute positions the element wrt its parent container ; */
+            /* position: absolute;
+            right: 10px;
+            bottom: 10px; */
+
+
+            /* position: fixed positions the element with respect to the browser window ; */
+            /* position: fixed;
+            bottom: 0;
+            right: 0; */
+
+
+            /* position sticky is nothing but the collection of relative and fixed */
+            position: sticky;
+            top: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <main class="card" id="card1">Card 1</main>
+        <main class="card" id="card2">Card 2</main>
+        <main class="card" id="card3">Card 3</main>
+        <main class="card" id="card4">Card 4</main>
+    </section>
+</body>
+</html>

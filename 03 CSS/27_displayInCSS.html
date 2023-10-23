@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties in CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* block ki kahani: we can set the width and center using margin = auto */
+        /* inline ki kahani : we cannot set the width of the inline element */
+        /* inline-block ki kahani: can set the width and make the element inline */
+        .container{
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.122);
+        }
+        .card {
+            border: 1px solid black;
+            display: inline-block;
+            width: 25vw;
+            padding: 1rem;
+            margin: 1rem;            /*y-margin x-margin*/
+            background-color: aliceblue;
+        }
+
+        .card>img {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <main class="card">
+            <img src="https://cdn-icons-png.flaticon.com/128/616/616412.png" alt="">
+            <p>The lion is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested
+                body; short,
+                rounded head; round ears; and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male
+                lions are larger
+                than females and have a prominent mane.</p>
+        </main><main class="card">
+            <img src="https://cdn-icons-png.flaticon.com/128/616/616412.png" alt="">
+            <p>The lion is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested
+                body; short,
+                rounded head; round ears; and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male
+                lions are larger
+                than females and have a prominent mane.</p>
+        </main><main class="card">
+            <img src="https://cdn-icons-png.flaticon.com/128/616/616412.png" alt="">
+            <p>The lion is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested
+                body; short,
+                rounded head; round ears; and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male
+                lions are larger
+                than females and have a prominent mane.</p>
+        </main>
+    </section>
+</body>
+
+</html>

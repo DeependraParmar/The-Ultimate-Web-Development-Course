@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ultimate Sign Up Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2545.jpg') no-repeat center center/cover fixed;
+            padding-top: 5rem;
+        }
+        .signup_form{
+            border: 1px solid white;
+            width: 30%;
+            background-color: white;
+            padding: 2rem;
+            text-align: center;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .signup_form > h1{
+            font-size: 3rem;
+            color: orangered;
+        }
+        .signup_form > .input_para {
+            border: 1px solid rgb(175, 175, 175);
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 8px;
+            text-align: left;
+        }
+        .signup_form > p > input{
+            border: none;
+            margin: 2px 8px;
+            width: 80%;
+        }
+        .signup_form > p > input:focus{
+            outline: none;
+        }
+        .signup_form > p > .icons{
+            color: orangered;
+        }
+        .signup_form > p > .btn{
+            width: 90%;
+            border: none;
+            margin: 0.5rem 1rem 1rem 1rem;
+            padding: 8px;
+            font-size: 1.03rem;
+            font-weight: 700;
+            background-color: orangered;
+            color: white;
+            border-radius: 5px;
+        }
+        .signup_form > p > .btn:hover{
+            background-color: rgb(255, 143, 102);
+            cursor: pointer;
+        }
+        .signup_form > .login_para{
+            font-size: 0.9rem;
+        }
+    
+        .signup_form > .login_para > a{
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <form class="signup_form">
+            <h1>Sign Up</h1>
+            <p class="input_para"><i class=" icons fa-solid fa-user"></i><input type="text" placeholder="John Doe"></p>
+            <p class="input_para"><i class=" icons fa-solid fa-envelope"></i><input type="email" placeholder="johndoe@gmail.com"></p>
+            <p class="input_para"><i class=" icons fa-solid fa-lock"></i><input type="password" placeholder="********"></p>
+            <p><button class="btn" type="submit">Sign In</button></p>
+            <p class="login_para">Already a User? <a href="#">Login</a> Now</p>
+        </form>
+    </section>
+</body>
+</html>
