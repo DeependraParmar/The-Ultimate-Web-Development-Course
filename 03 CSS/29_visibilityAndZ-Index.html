@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and Z-Index in CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(0, 0, 39);
+            padding: 10px 0px;
+        }
+        .para{
+            background-color: white;
+            margin: 10px 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #para1{
+            /* visibility: visible: default value of visibility which basically makes the element visible ; */
+
+            /* visibility: hidden: hides the element, makes it invisible but also takes/occupies the space */
+            
+            /* visibility: collapse; majorly used to collapse the rows and columns of the table */
+            position: absolute;
+            color: red;
+            z-index: 9;
+        }
+        #para2{
+            position: relative;
+            z-index: 10;
+            top: 30px;
+            border: 2px solid rebeccapurple;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <p class="para" id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis consequuntur ipsum, a velit ullam perspiciatis necessitatibus iste reiciendis amet fuga dolores error sunt asperiores praesentium fugit obcaecati sequi quas. Voluptatem quibusdam ipsam est quae dolores reprehenderit aperiam dicta deleniti? Ex porro voluptatem inventore optio ea eius nulla accusamus placeat?</p>
+
+        <p class="para" id="para2">Magni dolorem reiciendis eos similique, quasi maiores veniam perferendis saepe, tempora expedita quibusdam laudantium rem id laboriosam soluta temporibus sequi deserunt corporis, explicabo dolor optio necessitatibus. Beatae, eos alias qui repudiandae possimus, nemo tempora consequuntur accusamus quibusdam consectetur cupiditate excepturi quam laudantium, amet est molestias nobis officiis quia blanditiis cum!</p>
+    </section>
+</body>
+</html>

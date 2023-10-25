@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Properties in CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            border: 2px solid black;
+            margin: 1rem;
+            padding: 1rem;
+            font-size: 1.4rem;
+            background-color: orange;
+            width: 500px;
+            height: 100px;
+
+
+            /* ****************OVERFLOW-Y ki kahani ***************  */
+            /* overflow-y: visible(default) which makes the overflow of the content visible ; */
+            /* overflow-y: visible; */
+
+            /* overflow-y: hidden: shows the content which is present in the container and hides the overflown content ; */
+            /* overflow-y: hidden; */
+
+            /* overflow-y: scroll: adds a scrollbar in the container and whole container can be viewed using the scrollbar ; */
+            /* overflow-y: scroll; */
+
+
+            /* overflow-y: auto: automatically determines the axis of the overflowing content and adds a scrollbar accordingly ; */
+            /* overflow-y: auto; */
+
+
+            /* overflow-x: auto; */
+
+            overflow: auto auto;
+        }
+        .para{
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <article class="container">
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique perferendis eum corporis sapiente. Eum illum totam quod fuga voluptate officiis iste perspiciatis, incidunt id sit aut obcaecati nihil. Saepe enim ab error eligendi dolore ipsum laudantium quisquam suscipit voluptates maiores. Ut magnam, dolorum sint quos rem asperiores fugit tempore facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quia delectus quos sequi eveniet veritatis similique quod excepturi ut aspernatur? Inventore dignissimos non accusamus deserunt provident quaerat quis deleniti optio, modi natus vero corrupti reiciendis veniam aut minus minima nulla, atque eum architecto? Velit ipsa harum quas sunt, tenetur nemo.</p>
+    </article>
+</body>
+</html>
