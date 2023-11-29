@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Logics: Learn What Matters</title>
+    <link rel="shortcut icon" href="./logo.png" type="image/png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Lexend, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .navbar{
+            text-align: center;
+            box-shadow: 0px 1px 3px #0267b476;
+        }
+        .navbar > main{
+            display: inline-block;
+            text-align: center;
+        }
+        .navbar > .logo{
+            width: 25%;
+        }
+        .navbar > .logo > a > img{
+            width: 60px;
+        }
+        .navbar > .nav_links{
+            width: 45%;
+            position: relative;
+            bottom: 20px;
+        }
+        .navbar > .nav_links > a{
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0px 5px;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        .navbar > .nav_links > a:hover{
+            background-color: #b3dafe91;
+            border-radius: 10px;
+        }
+        .navbar > .nav_buttons{
+            width: 25%;
+            position: relative;
+            bottom: 20px;
+        }
+        .navbar > .nav_buttons > a{
+            color: rgb(255, 255, 255);
+            background-color: #0268b4;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0px 5px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 10px;
+        }
+        .navbar > .nav_buttons > a:hover{
+            background-color: #004376;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <!-- container for the logo  -->
+        <main class="logo">
+            <a href="#">
+                <img src="./logo.png" alt="logo here">
+            </a>
+        </main>
+
+        <!-- container for the navigation links  -->
+        <main class="nav_links">
+            <a href="">Home</a>
+            <a href="">Courses</a>
+            <a href="">Blogs</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </main>
+        
+        <!-- container for the navigation buttons  -->
+        <main class="nav_buttons">
+            <a href="">Login</a>
+            <a href="">Sign Up</a>
+        </main>
+    </nav>
+</body>
+</html>

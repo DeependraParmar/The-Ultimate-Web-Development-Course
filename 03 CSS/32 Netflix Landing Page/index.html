@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .nav_bar{
+            position: absolute;
+            z-index: 10;
+            text-align: center;
+            padding: 1rem;
+        }
+        .nav_bar > main{
+            display: inline-block;
+        }
+        .nav_bar > .logo{
+            width: 30%;
+            text-align: left;
+        }
+        .nav_bar > .logo > img{
+            width: 30%;
+        }
+        .nav_bar > .nav_links{
+            width: 50%;
+            text-align: right;
+        }
+        .nav_bar > .nav_links > select{
+            background-color: rgba(34, 34, 34, 0.522);
+            color: white;
+            padding: 10px 15px;
+            border: 1px solid rgba(255, 255, 255, 0.496);
+            border-radius: 5px;
+        }
+        .nav_bar > .nav_links > button{
+            background-color: rgba(255, 0, 0);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: none;
+            font-weight: 600;
+        }
+        .landing_page{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background: url(./banner.jpg) no-repeat center center/cover scroll;
+        }
+        .landing_page > .landing_page_description{
+            width: 100%;
+            padding-top: 15rem;
+            height: 100%;
+            text-align: center;
+            color: white;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%);
+        }
+        .landing_page > .landing_page_description > .heading{
+            font-size: 3rem;
+            font-weight: 900;
+            margin: 10px 0px;
+        }
+        .landing_page > .landing_page_description > p{
+            font-size: 1.5rem;
+            margin: 15px 0px;
+        }
+        .landing_page > .landing_page_description > p > input{
+            background-color: rgba(34, 34, 34, 0.522);
+            padding: 20px;
+            width: 25%;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.496);
+            border-radius: 5px;
+        }
+        .landing_page > .landing_page_description > p > button{
+            background-color: rgba(255, 0, 0);
+            padding: 15px 25px;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav_bar">
+        <main class="logo">
+            <img src="./Logonetflix.png" alt="">
+        </main>
+        <main class="nav_links">
+            <select name="language" id="language">
+                <option value="English">English</option>
+                <option value="हिंदी">हिंदी</option>
+            </select>
+            <button>Sign In</button>
+        </main>
+    </nav>
+    <section class="landing_page">
+        <main class="landing_page_description">
+            <h1 class="heading">Unlimited movies, TV shows and more</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <p>
+                <input type="email" name="email" id="email" placeholder="Email Address">
+                <button>Get Started</button>
+            </p>
+        </main>
+    </section>
+</body>
+</html>
