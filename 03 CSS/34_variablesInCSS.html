@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables in CSS</title>
+    <style>
+        :root{
+            --purple-light: rgb(255, 61, 61);
+            --purple-dark: rgb(255, 0, 0);
+            --background: rgb(215, 215, 215);
+            --spacing: 2rem;
+        }
+
+        .container{
+            background-color: var(--background);
+        }
+        h1{
+            background-color: var(--purple-dark);
+            color: white;
+            padding: var(--spacing);
+        }
+        p{
+            --spacing: 0rem;
+            background-color: var(--purple-light);
+            color: white;
+            padding: var(--spacing);
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <img src="./cursor.png" alt="">
+        <h1>My Name is Learn Logics</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique veritatis quod eum corporis dolores quisquam. Atque at labore, molestias repellat modi nihil. Accusamus nulla obcaecati ab qui provident sunt facere adipisci dolor non reprehenderit, ut, libero perspiciatis voluptatibus atque voluptas itaque asperiores, inventore totam ea blanditiis ipsa exercitationem voluptate explicabo vel. Quos molestiae eveniet illum, ipsa suscipit voluptate voluptatibus.</p>
+    </main>
+</body>
+</html>
