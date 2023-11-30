@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity in CSS</title>
+    <style>
+        p{
+            color: blue !important;
+        }
+        .para{
+            color: red;
+        }
+        .para{
+            color: purple ;
+        }
+        #para{
+            color: green;
+        }
+        [title=hello]{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <h1>Learn Logics me aaap sabhi ka swagat hai</h1>
+        <p class="para" id="para" title="hello" style="color: goldenrod">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem eum aliquam iure voluptates laborum ad in magnam ullam blanditiis quas, expedita minima rerum laudantium ducimus provident, deserunt, saepe architecto delectus? Praesentium quasi animi reprehenderit, dicta obcaecati voluptates expedita, aliquid ducimus ex impedit recusandae quas sapiente voluptas! Molestias, corrupti nihil officia fugit atque eius maiores. Quasi velit nemo maxime dolores.</p>
+    </section>
+</body>
+</html>
